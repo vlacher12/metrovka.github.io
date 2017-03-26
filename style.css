@@ -9,7 +9,6 @@
 
  @font-face {
   font-family: Light;
-  font-weight: lighter;
   
   src: url(materials/fonts/rounded/light/gothamrounded-light-webfont.eot), /* IE9 Compat Modes */
        url(materials/fonts/rounded/light/gothamrounded-light-webfont.woff),  /* Pretty Modern Browsers */
@@ -539,7 +538,9 @@ body {
     padding: 0px 7px;
 	
 }
-.footer .nav li:last { border-right: none }
+.footer .nav li:last-child { 
+	border-right: none 
+}
 .footer .nav a{
     font-family: Gothamrounded;
     font-size: 14px;
